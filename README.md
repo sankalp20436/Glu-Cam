@@ -48,24 +48,11 @@ Clone the repository:
 git clone https://github.com/Vinayak2002/GFG_Hackathon.git
 ```
 
-Create a new virtual environment from the yml file:
-```zsh
-conda env create -f environment.yml
-```
-
-Activate the virtual environment :
-```zsh
-conda activate FinalWebsite
-```
+Create a new virtual environment and activate it.
 
 Install all required python packages :
 ```zsh
 pip install -r requirements.txt
-```
-
-Install the node package:
-```zsh
-npm install ffmpeg
 ```
 
 Add the Secret Key in the settings.py file.
