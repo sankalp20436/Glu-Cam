@@ -1,21 +1,20 @@
-<H1 align =center>VAAK BHAAVNA </H1>
-<p align =center>" वाक् भावना "</p>
-<p align =center>"आवाज में छुपी हुई भावना को जानना है जरूरी"</p>
+<H1 align =center>GLU-CAM </H1>
+<p align =center>"Assessment of Glucose Level"</p>
 <p align="center">
-  <img width="200" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/logo.jpeg" alt="Material Bread logo">
+  <img width="200" src="images/Screenshot 2023-04-16 at 12.08.12 PM.png" alt="Material Bread logo">
 </p>
 
 
-Vaak-Bhaavna is a website which tells us about emotions as well as gender of the speaker with the help of the speech input which the person gives and based on its speech-emotion recognition technique.It can classify emotion into 3 classes: Positive,Negative and Neutral. The emotions which can be classified into happy, sad, fear, angry, disgust, neutral and surprise.
+Glu-Cam is a web app for measuring blood glucose levels using a noninvasive method and an easy way to monitor blood glucose levels without expense. It uses the change in the curvature of eye veins, i.e., Tortuous Retinal Vasculature, which is a sign of diabetes in a person. We take the eye images of the eyes, extract the ROI, i.e., veins, and calculate the TRV values of both eyes. The glucose level is predicted by the average TRV value and the time of the last meal using an ML model.
 
 # Features - 
 
-* ANALYSIS - Analyzing the wave form of the audio given as input using MFCCs and Mel-log-spectrogram.
-* GENDER PREDICTION - Predicting speaker gender that is whether the speaker is male or female with the help of speech given as input.
-* EMOTION PREDICTION - Predicting speaker emotion with the help of speech given as input.
-  * 3 emotion: Positive, Negative, Neutral
-  * 6 emotion:Happy, sad, Angry, Fear, Neutral, Surprise
-  * 7 emotion: Disugust, Happy, sad, Angry, Fear, Neutral, Surprise
+1. Easy to Use.
+2. Non-invasive, no need of blood droplet.
+3. Does not require any separate hardware module.
+4. Does not require internet connection.
+5. Works with almost all android mobile devices as it was developed for mobile first.
+
 
 # Technologies used:
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) <br />
@@ -26,37 +25,21 @@ Vaak-Bhaavna is a website which tells us about emotions as well as gender of the
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) <br />
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) <br />
 
-# How to use - 
-The web-application predicts the emotion from the audio input given. It can also predict the gender of the speaker. You can either upload an audio file you can record the live audio and download it in .wav format
+# Proposed Methodology - 
+* Diabetes is associated with loss of capillaries.
+* People with diabetes have more Tortuous Retinal Vasculature than persons without diabetes.
+* This suggests that retinal vascular tortuosity might be an early indicator of diabetes
+* Generally diabetes is diagnosed if the Tortuosity measure is more than 1.15
 
 
-# Website layout
+
+
+
+
+# Apk Demo
  <p align ="center" >
-  <img  width="700" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/site.gif" alt="Material Bread logo">
+  <img  width="700" src="images/ezgif.com-video-to-gif.gif" alt="Material Bread logo">
   </p>
-
-# Test Cases-
-
- * case - 1 :
- 
- https://user-images.githubusercontent.com/76607471/177053274-03896a05-9813-4c09-9a13-4c36b1230a0b.mp4
- 
- <p align ="center" >
-  <img  width="700" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/male.gif" alt="Material Bread logo">
-  </p>
-  
- * OUTPUT- 
- 
-  
-  * case - 2 :
-  
-  https://user-images.githubusercontent.com/76607471/177053298-cd36a032-5e00-4e00-a68d-ffb7c03cc548.mp4
-  
- <p align ="center" >
-  <img  width="700" src="https://github.com/Vinayak2002/Vaak-Bhaavna/blob/main/images/female.gif" alt="Material Bread logo">
-  </p>
-
- * OUTPUT- 
 
 ## Instructions for running the application
 
