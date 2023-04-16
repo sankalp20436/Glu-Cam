@@ -18,9 +18,13 @@ from PIL import Image
 import Website.roi_tccc 
 
 cwd = os.getcwd() 
-module_dir = cwd + "\\Website"
-media_dir = os.getcwd() + '\\media\\documents\\'
+media_dir = os.path.join(os.getcwd(), 'media', 'documents')
 
+
+def getFileName(path):
+    for i in range(len(path) - 1, -1, -1):
+        if path[i] == "/" or path[i] == "\\":
+            return path[i+1:]
 
 
 def Image_store(request):
@@ -38,8 +42,11 @@ def Image_store(request):
             c = form.save() 
             try:
                 # Form Validated
-                leftpath = media_dir + str(c.left).split("/")[-1]
-                rightpath = media_dir + str(c.right).split("/")[-1]
+                # leftpath = os.path.join(media_dir, getFileName(str(c.left)))
+                leftpath = media_dir + os.sep + getFileName(str(c.left))
+                rightpath = media_dir + os.sep + getFileName(str(c.right))
+                # rightpath = os.path.join(media_dir, getFileName(str(c.right)))
+                print(media_dir)
                 print(leftpath)
                 print(rightpath)
 

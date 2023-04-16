@@ -20,6 +20,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
 from Website.views import homePage, record, about, Image_store
+from django.views.static import serve
 
 urlpatterns = [
 
@@ -28,6 +29,7 @@ urlpatterns = [
     path('record', record), # adding record page to the path
     path('about', about), # adding about page to the path 
     path('audio',Image_store),
+    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}),
 
     # url(static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)),
 ] + static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
