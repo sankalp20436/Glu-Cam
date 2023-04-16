@@ -45,7 +45,7 @@ Glu-Cam is a web app for measuring blood glucose levels using a noninvasive meth
 
 Clone the repository:
 ```zsh
-git clone https://github.com/Vinayak2002/Vaak-Bhaavna.git
+git clone https://github.com/Vinayak2002/GFG_Hackathon.git
 ```
 
 Create a new virtual environment from the yml file:
