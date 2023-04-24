@@ -38,7 +38,7 @@ Glu-Cam is a web app for measuring blood glucose levels using a noninvasive meth
 
 # Apk Demo
  <p align ="center" >
-  <img  width="700" src="images/ezgif.com-video-to-gif.gif" alt="Material Bread logo">
+  <img  width="700" src="images/ezgif.com-video-to-gif.gif" alt="Material Bread logo ">
   </p>
 
 ## Instructions for running the application
@@ -63,4 +63,4 @@ python manage.py runserver
 ```
 ---
 
-Made with :heart: at IIIT Naya Raipur .
+Made with :heart: at IIIT Naya Raipur
