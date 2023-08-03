@@ -38,11 +38,12 @@ As shown in the figure, the proposed methodology involves several steps to effic
 
    2.1 The tortuosity measure refers to the degree of curvature or twisting of blood vessels within the ROI.
    
+   
    2.2 This step involves leveraging the power of machine learning algorithms and techniques to analyze the extracted ROI and extract valuable information related to tortuosity and blood           glucose levels.
    
    2.3 The extracted blood vessel patterns and characteristics can be analyzed using machine learning frameworks to quantify the tortuosity level
    
-3. Smartphone-based Implementation
+4. Smartphone-based Implementation
   <p align ="center" > 
 <img width="800" src="images/3.png" alt="hjg"> </p>
 
