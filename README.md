@@ -30,13 +30,14 @@ As shown in the figure, the proposed methodology involves several steps to effic
 
 # The three steps involved are -
 1. Extracting the Region of Interest -  The aim is to extract the region of interest from a digital eye image.
- <img src="images/2.png" alt="method">
+<p align ="center" > <img  width="500"> src="images/2.png" alt="method"></p>
 2. Tortuosity and Blood Glucose Measurement -
    2.1 The tortuosity measure refers to the degree of curvature or twisting of blood vessels within the ROI.
    2.2 This step involves leveraging the power of machine learning algorithms and techniques to analyze the extracted ROI and extract valuable information related to tortuosity and blood           glucose levels.
    2.3 The extracted blood vessel patterns and characteristics can be analyzed using machine learning frameworks to quantify the tortuosity level
 3. Smartphone-based Implementation
-<img src="images/3.png" alt="method">
+  <p align ="center" > 
+<img width="500" src="images/3.png" alt="method"> </p>
 
 
 # Apk Demo
