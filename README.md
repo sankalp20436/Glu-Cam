@@ -26,14 +26,15 @@ Glu-Cam is a web app for measuring blood glucose levels using a noninvasive meth
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) <br />
 
 # Proposed Methodology - 
-* Diabetes is associated with loss of capillaries.
-* People with diabetes have more Tortuous Retinal Vasculature than persons without diabetes.
-* This suggests that retinal vascular tortuosity might be an early indicator of diabetes
-* Generally diabetes is diagnosed if the Tortuosity measure is more than 1.15
-
-
-
-
+As shown in the figure, the proposed methodology involves several steps to efficiently make a non-invasive method to predict the blood glucose level. The project implementation is divided into three-step pipelined architecture, as illustrated in Figure. The three steps involved are -
+1. Extracting the Region of Interest -  The aim is to extract the region of interest from a digital eye image.
+ <img width="200" src="images/2.png" alt="method">
+2. Tortuosity and Blood Glucose Measurement -
+   2.1 The tortuosity measure refers to the degree of curvature or twisting of blood vessels within the ROI.
+   2.2 This step involves leveraging the power of machine learning algorithms and techniques to analyze the extracted ROI and extract valuable information related to tortuosity and blood           glucose levels.
+   2.3 The extracted blood vessel patterns and characteristics can be analyzed using machine learning frameworks to quantify the tortuosity level
+3. Smartphone-based Implementation
+<img width="200" src="images/3.png" alt="method">
 
 
 # Apk Demo
