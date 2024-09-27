@@ -1,4 +1,4 @@
-<H1 align =center>GLU-CAM </H1>
+<H1 align =center>GLU - CAM </H1>
 <p align =center>"Assessment of Glucose Level"</p>
 <p align="center">
   <img width="200" src="images/Screenshot 2023-04-16 at 12.08.12 PM.png" alt="Material Bread logo">
